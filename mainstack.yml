@@ -1,0 +1,6 @@
+---
+- name: Ansible-Assignment
+  hosts: all 
+  become: yes
+  roles:
+    - static-website

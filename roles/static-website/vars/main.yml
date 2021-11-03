@@ -1,0 +1,4 @@
+---
+# vars file for roles/role1
+restart: restarted
+start: started 

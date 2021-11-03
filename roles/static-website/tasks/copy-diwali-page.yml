@@ -1,0 +1,8 @@
+---
+- name: Copying diwali.html
+  copy:
+    src: /home/knoldus/Downloads/diwali_html/diwali/
+    dest: /var/www/html/
+
+
+  

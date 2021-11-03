@@ -1,0 +1,8 @@
+---
+- name: config
+  copy: 
+    src: nginx.conf
+    dest: /etc/nginx/conf.d/
+  
+  notify:
+    - restart-nginx 

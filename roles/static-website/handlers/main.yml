@@ -1,0 +1,4 @@
+---
+- import_tasks: nginx-service-start.yml
+- import_tasks: nginx-restart.yml
+

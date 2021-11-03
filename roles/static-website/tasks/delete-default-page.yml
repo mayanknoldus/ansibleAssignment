@@ -1,0 +1,3 @@
+---
+- name: Deleting the default web-page in nginx
+  command: rm -f *

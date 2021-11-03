@@ -1,0 +1,5 @@
+---
+- name: copying diwali.html
+  copy:
+    src: /home/knoldus/Downloads/cristmax_html/cristmax/
+    dest: /var/www/html/

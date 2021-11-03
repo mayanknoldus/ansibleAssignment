@@ -1,0 +1,14 @@
+---
+  - import_tasks: update-package.yml
+
+  - import_tasks: install-nginx.yml
+
+  - import_tasks: delete-default-page.yml
+
+  - import_tasks: copy-diwali-page.yml
+    when:  ansible_host  == "13.59.209.169"
+
+  - import_tasks: copy-critsmax-page.yml
+    when:  ansible_host == "18.222.29.20"
+    
+  - import_tasks: nginx-config.yml
